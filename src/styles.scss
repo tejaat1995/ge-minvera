@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+.ps .ps__scrollbar-y-rail {
+  left: 3px;
+  right: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #242a33;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #242a33;
+}
